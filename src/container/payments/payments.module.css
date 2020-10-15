@@ -1,0 +1,58 @@
+.paymentsContainer{
+    width: 40%;
+    height: 40vh;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.paymentsContainer > p{
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+}
+.paymentsContainer > input{
+    width: 90%;
+    height: 36px;
+    margin: 10px 0 0 20px;
+    font-size: 17px;
+    padding: 0 0 0 20px;
+}
+.paymentsContainer > button{
+    width: 80%;
+    height: 36px;
+    margin: 30px 0 0 60px;
+    color: #000;
+    font-size:16px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #000;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+.paymentsContainer > button:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+@media(max-width:1200px){
+    .paymentsContainer > input{
+        width: 80%;
+    }
+    .paymentsContainer > button{
+        width: 70%;
+    }
+}
+@media(max-width:580px){
+    .paymentsContainer{
+        width: 60%;
+        height: 40vh;
+        position: absolute;
+        top: 44%;
+        left: 50%;
+        border: 1px solid #ccc;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}

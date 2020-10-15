@@ -1,0 +1,39 @@
+
+.otpContainer{
+    width: 40%;
+    height: 250px;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.otpContainer > p{
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+}
+.otpContainer > input{
+    width: 90%;
+    height: 36px;
+    margin: 10px 0 0 20px;
+    font-size: 17px;
+    padding: 0 0 0 20px;
+}
+.otpContainer > button{
+    width: 80%;
+    height: 36px;
+    margin: 30px 0 0 60px;
+    color: #000;
+    font-size:16px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #000;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+.otpContainer > button:hover{
+    color: #fff;
+    background-color: #000;
+}
